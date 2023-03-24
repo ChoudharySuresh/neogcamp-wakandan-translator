@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background: url('Images/stacked-waves-haikei.svg');
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 10vh;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+#input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    width: 90%;
+    padding: 0.5rem;
+    margin: auto;
+    font-size: 19px;
+    outline: none;
+    border: none;
+    background: #f1f5f9;
+}
+#btn{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    border-radius: 0.4rem;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+#btn:hover{
+    background-color: black;
+    transition: 1s;
+}
+p,h2{
+    color: #f1f5f9;
+}
+h2{
+    text-decoration: underline wavy;
+}
